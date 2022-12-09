@@ -30,7 +30,7 @@ int main(void)
 					}
 					else
 					{
-					printf("The number is positive\n")
+					printf("The number is positive\n");
 					}
 
 					return (0);
