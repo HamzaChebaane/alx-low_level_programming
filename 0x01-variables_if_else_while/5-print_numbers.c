@@ -19,7 +19,7 @@ int main(void)
 	d = 1;
 	r = 0;
 
-	while (c <= 9)
+	while (c < 10)
 
 {
 
