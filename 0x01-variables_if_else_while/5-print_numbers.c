@@ -17,14 +17,15 @@ int main(void)
 
 	c = 0;
 	d = 1;
+	r = 0;
 
 	while (c <= 9)
 
 {
 
-	r = c + c * d;
+	r = r + c * d;
 	c++;
-	d++;
+	d = d * 10;
 										}
 
 	printf ("%d", r);
