@@ -23,7 +23,7 @@ putchar(c);
 }
 
 d = 'A';
-while (d <= 'A')
+while (d <= 'Z')
 {putchar(d);
 	d++;
 }
