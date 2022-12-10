@@ -12,18 +12,22 @@ int main(void)
 
 {
 	int c;
+	int d;
+	int r;
 
 	c = 0;
+	d = 1;
 
 	while (c <= 9)
 
 {
 
-	putchar(c);
+	r = c + c * d;
 	c++;
+	d++;
 										}
 
-	putchar ('\n');
+	printf ("%d", r);
 	return (0);
 
 }
