@@ -19,7 +19,7 @@ int main(void)
 	d = 1;
 	r = 0;
 
-	while (c < 10)
+	while (c <= 10)
 
 {
 
@@ -28,7 +28,7 @@ int main(void)
 	d = d * 10;
 										}
 
-	printf ("%d", r);
+	printf("%d", r);
+putchar('\n');
 	return (0);
-
 }
