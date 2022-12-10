@@ -24,7 +24,7 @@ int main(void)
 {
 
 	r = r + c * d;
-	c++;
+	c = c + 1;
 	d = d * 10;
 										}
 
