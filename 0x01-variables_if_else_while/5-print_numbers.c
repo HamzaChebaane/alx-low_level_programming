@@ -28,8 +28,6 @@ int main(void)
 	d = d * 10;
 	printf("%d", r);
 }
-
-	printf("%d", r);
 putchar('\n');
 	return (0);
 }
