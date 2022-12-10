@@ -14,9 +14,10 @@ int main(void)
 
 int c;
 
-for (c = 0; c < 10; c++)
+while (c = 0)
 {
-printf("%d", c);
+putchar("c");
+c++;
 }
 putchar('\n');
 return (0);
