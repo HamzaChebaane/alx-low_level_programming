@@ -12,21 +12,13 @@ int main(void)
 
 {
 	int c;
-	int d;
-	int r;
 
 	c = 0;
-	d = 1;
-	r = 0;
 
 	while (c <= 10)
 
 {
-
-	r = r + c * d;
-	c = c + 1;
-	d = d * 10;
-	printf("%d", r);
+	printf("%d", c);
 }
 putchar('\n');
 	return (0);
