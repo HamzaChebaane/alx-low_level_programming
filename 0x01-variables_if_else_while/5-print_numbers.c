@@ -28,7 +28,7 @@ int main(void)
 	d = d * 10;
 										}
 
-	printf(r);
+	printf($r);
 putchar('\n');
 	return (0);
 }
