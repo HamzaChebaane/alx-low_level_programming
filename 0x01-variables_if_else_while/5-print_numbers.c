@@ -26,9 +26,10 @@ int main(void)
 	r = r + c * d;
 	c = c + 1;
 	d = d * 10;
-										}
+	printf("%d", r);
+}
 
-	printf($r);
+	printf("%d", r);
 putchar('\n');
 	return (0);
 }
