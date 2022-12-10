@@ -2,7 +2,12 @@
 #include <stdio.h>
 #include <time.h>
 
-/* more headers goes there */
+/**
+ *
+ *main - Enter point
+ *
+ *Return: Always 0 (Success)
+ */
 
 
 
