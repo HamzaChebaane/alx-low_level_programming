@@ -5,7 +5,7 @@
  * Return : Always 0
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char pr;
 	for (pr = 'a'; pr = 'z'; pr++)
