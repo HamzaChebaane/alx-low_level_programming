@@ -2,7 +2,8 @@
 
 /**
  * print_most_numbers - prints the numbers, from 0 to 9, followed by a new line
- * without the numbers 2 and 4
+ * 
+ * Return: void
  */
 
 void print_most_numbers(void)
@@ -11,10 +12,8 @@ void print_most_numbers(void)
 
 	for (c = 48; c < 58; c++)
 	{
-		if (c != 50 && c !=52)
-		{
+		if (c != 50 && c != 52)
 			_putchar(c);
-		}
 	}
 	_putchar('\n');
 }
