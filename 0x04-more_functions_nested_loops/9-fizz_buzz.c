@@ -3,9 +3,10 @@
 
 /**
  * main - The “Fizz-Buzz test” interview
+ * Return: Always 0
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -36,4 +37,5 @@ void main(void)
 			_putchar(48);
 		}
 	}
+	return(0);
 }
