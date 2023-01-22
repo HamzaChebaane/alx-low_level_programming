@@ -11,10 +11,6 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if ((i = 1))
-		{
-			putchar(49);
-		}
 		if (i % 15 == 0)
 		{
 			putchar(' ');
@@ -34,6 +30,10 @@ int main(void)
 		{
 			putchar(' ');
 			putchar(i + '0');
+		}
+		else
+		{
+			putchar(49);
 		}
 	}
 	return(0);
