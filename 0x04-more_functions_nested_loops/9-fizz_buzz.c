@@ -9,8 +9,12 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i <= 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
+		if (i = 1)
+		{
+			putchar(49);
+		}
 		if (i % 15 == 0)
 		{
 			putchar(' ');
@@ -26,14 +30,10 @@ int main(void)
 			putchar(' ');
 			printf("Fizz");
 		}
-		else if (i != 0)
+		else if (i != 1)
 		{
 			putchar(' ');
 			putchar(i + '0');
-		}
-		else
-		{
-			putchar(48);
 		}
 	}
 	return(0);
