@@ -48,7 +48,6 @@ void print_times_table(int n)
 				_putchar((l % 10)  + '0');
 		}
 	}
-	}
 	_putchar('\n');
 	}
 	}
