@@ -29,7 +29,7 @@ int main(void)
 		else if (i != 1)
 		{
 			putchar(' ');
-			putchar(i + '0');
+			printf("%d", i);
 		}
 		else
 		{
