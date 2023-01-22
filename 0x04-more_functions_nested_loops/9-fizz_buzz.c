@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i = 1)
+		if ((i = 1))
 		{
 			putchar(49);
 		}
