@@ -23,7 +23,7 @@ void print_times_table(int n)
 		else if (l < 100)
 			_putchar((l / 10) + '0');
 		_putchar((l % 10) + '0');
-		else
+		else if (l > 100)
 			_putchar((l / 100) + '0');
 				_putchar(((l / 10) % 10) + '0');
 				_putchar((l % 10)  + '0');
