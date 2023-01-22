@@ -26,7 +26,6 @@ void print_times_table(int n)
 			    _putchar(' ');
 			_putchar((l) + '0');
 			}
-		}
 		else if (l < 100)
 		{
 			 _putchar(',');
@@ -45,6 +44,5 @@ void print_times_table(int n)
 		}
 	}
 	_putchar('\n');
-	}
 	}
 }
