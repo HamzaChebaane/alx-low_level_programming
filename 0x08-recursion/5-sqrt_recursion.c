@@ -8,7 +8,7 @@
  * -1 on error
  */
 
-sqrt1(int a, int b)
+int sqrt1(int a, int b)
 {
 	if (b * b == a)
 		return (b);
