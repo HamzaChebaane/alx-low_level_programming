@@ -12,7 +12,7 @@ int sqrt1(int a, int b)
 {
 	if (b * b == a)
 		return (b);
-	else if (b >= (n / 2))
+	else if (b >= (a / 2))
 		return (-1);
 	return (sqrt1(a, b + 1));
 }
