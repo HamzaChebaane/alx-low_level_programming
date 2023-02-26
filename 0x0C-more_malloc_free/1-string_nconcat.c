@@ -15,10 +15,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i = 0, j = 0, k = 0, l = 0;
 	char *result;
-	
+
 	if (s1 == NULL)
 		s1 = " ";
-	
+
 	if (s2 == NULL)
 		s2 = " ";
 
@@ -34,10 +34,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		l = i + n;
 
 	result = malloc(sizeof(char) * l + 1);
-	 if (result == NULL)
-		 return (NULL);
+	if (result == NULL)
+		return (NULL);
 
-	 k = 0;
+	k = 0;
 	while (j < l)
 	{
 		if (j <= i)
